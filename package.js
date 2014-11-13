@@ -12,7 +12,7 @@ Package.onUse(function(api) {
   // Export Accounts (etc) to packages using this one.
   api.imply('accounts-base', ['client', 'server']);
   api.use('accounts-oauth', ['client', 'server']);
-  api.use('chris2:oauth2-mitre', ['client', 'server']);
+  api.use('chris2:oauth2-mitre@0.0.1', ['client', 'server']);
 
   // api.add_files('github_login_button.css', 'client');
 
