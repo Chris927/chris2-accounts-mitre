@@ -2,7 +2,7 @@ Package.describe({
   name: 'chris2:accounts-mitre',
   summary: 'Login service for Mitre accounts',
   version: '0.0.1',
-  git: ' /* Fill me in! */ '
+  git: 'git@github.com:Chris927/chris2-accounts-mitre.git'
 });
 
 Package.onUse(function(api) {
