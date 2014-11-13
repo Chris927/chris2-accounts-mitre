@@ -1,7 +1,7 @@
 Package.describe({
   name: 'chris2:accounts-mitre',
   summary: 'Login service for Mitre accounts',
-  version: '0.0.4',
+  version: '0.0.6',
   git: 'git@github.com:Chris927/chris2-accounts-mitre.git'
 });
 
@@ -12,7 +12,7 @@ Package.onUse(function(api) {
   // Export Accounts (etc) to packages using this one.
   api.imply('accounts-base', ['client', 'server']);
   api.use('accounts-oauth', ['client', 'server']);
-  api.use('chris2:oauth2-mitre@0.0.4', ['client', 'server']);
+  api.use('chris2:oauth2-mitre@0.0.5', ['client', 'server']);
   api.use('service-configuration', 'server');
   api.imply('service-configuration', 'server');
 
