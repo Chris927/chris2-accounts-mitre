@@ -12,7 +12,7 @@ Package.onUse(function(api) {
   // Export Accounts (etc) to packages using this one.
   api.imply('accounts-base', ['client', 'server']);
   api.use('accounts-oauth', ['client', 'server']);
-  api.use('chris2:oauth2-mitre@0.1.0', ['client', 'server']);
+  api.use('chris2:oauth2-mitre@0.1.1', ['client', 'server']);
   api.use('service-configuration', 'server');
   api.imply('service-configuration', 'server');
 
